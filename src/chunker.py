@@ -1,4 +1,3 @@
-# src/chunker.py
 import ast
 from typing import List
 from .models import CodeFile, CodeChunk
@@ -76,4 +75,5 @@ def chunk_file(file: CodeFile) -> List[CodeChunk]:
         return chunker.chunks
     except SyntaxError:
         print(f"Syntax Error in {file.file_path}")
+
         return []
