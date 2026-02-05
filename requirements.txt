@@ -1,2 +1,6 @@
 pydantic 
+streamlit
 ollama
+requests
+fastapi
+chromadb
