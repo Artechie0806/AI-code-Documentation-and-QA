@@ -1,4 +1,3 @@
-# main.py
 from src.ingest import scan_repository
 from src.chunker import chunk_file
 from src.ai_engine import generate_summary # Assuming you use the updated endpoint version
@@ -47,4 +46,5 @@ def main():
     print("\nDone! Check your source code.")
 
 if __name__ == "__main__":
+
     main()
